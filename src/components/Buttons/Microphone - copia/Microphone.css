@@ -1,0 +1,30 @@
+.round-btn {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: none;
+  background-color: #1b1a1a;
+  color: var(--secondary-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.2s;
+  
+}
+
+/* .round-btn:hover {
+  background-color: #323232;
+  transform: scale(1.05);
+  color: var(--primary-color);
+
+} */
+
+.round-btn.active {
+  background-color: var(--primary-color);
+  transform: scale(1.05);
+  color: var(--secondary-color);
+}
+
+
+

@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form_options{
+    display: flex;
+    gap: 1.5em;
+}
+
+.form_input{
+    font-size: 1.2em;
+    border-radius: 6px;
+    
+}
+
+.form_select{
+    font-size: 1.2em;
+    border-radius: 6px;
+    cursor: pointer;
+}

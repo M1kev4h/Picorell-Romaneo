@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-secondary);
+    color: var(--secondary-color);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar_logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.navbar_links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar_item {
+    font-size: 1rem;
+}
+
+.navbar_link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar_link:hover {
+    color: #be4242;
+}
