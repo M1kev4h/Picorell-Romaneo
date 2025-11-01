@@ -18,7 +18,7 @@ export const Home = () => {
         <h2 className='home-title'>Preciona el boton para empesar a grabar</h2>
         <Microphone/>
         <Openmodal openModal={openModal}/>
-        <p className='recording-text'>este es el texto que apareceria</p>
+        <p id='textArea' className='recording-text'></p>
     </section>
   )
 }

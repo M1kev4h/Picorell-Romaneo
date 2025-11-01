@@ -14,12 +14,12 @@ export const Form = () => {
         
           <select className='form_select' name="Provedor" id="Provedor">
             <option value="Provedor 1">Upisa</option>
-            <option value="Provedor 2">Frivati</option>
+            <option value="Provedor 2">Frivatti</option>
             <option value="Provedor 3">Coopabel</option>
           </select>
          </section>
 
-        <input className='form_input' type="number" placeholder='Peso Neto' />
+        <input className='form_input' type="Text" placeholder='Producto' />
         
     </form>
   )

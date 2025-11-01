@@ -1,4 +1,42 @@
 .table{
     border: solid 1px var(--secondary-color);
     text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 3rem;
+}
+
+.table th{
+    padding: .8em;
+    background-color: var(--background-secondary);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table td{
+
+    padding: .8em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+tbody :hover{
+    background-color: var(--background-modal);
+    cursor: pointer;
+}
+tfoot tr td {
+    border: 1px solid var(--secondary-color);
+    font-weight: 600;
+    background-color: var(--background-secondary);
+}
+
+.total-peso-cajas{
+   
+    text-align: start;
+}
+
+.total{
+    text-align: center;
 }

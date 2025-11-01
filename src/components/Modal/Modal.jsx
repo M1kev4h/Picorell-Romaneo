@@ -10,7 +10,7 @@ export const Modal = ({isOpen, onClose}) => {
             <p className="modal_paragraph">Aqui se estableceran los parametros para el romaneo</p>
             <Form/>
             <div className='modal_buttons' >
-            <button className="modal_make button" type='submit'>Crear</button>
+            <button className="modal_make button" type='submit'>Enviar</button>
             <button onClick={onClose}   className="modal_close button">Salir</button>
             </div>
         </div>
